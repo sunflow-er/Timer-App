@@ -10,20 +10,22 @@
         android:layout_width="256dp"
         android:layout_height="256dp"
         android:src="@drawable/baseline_access_time_filled_24"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="16dp"
         />
 
     <TextView
+        android:id="@+id/time_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="96sp"
-        tools:text="00 0000"
+        android:text="00.000"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="32dp"
         />
 
     <Button
+        android:id="@+id/start_and_stop_button"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:textSize="32sp"

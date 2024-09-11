@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "984259712112",
+    "firebase_url": "https://timer-e8728-default-rtdb.firebaseio.com",
+    "project_id": "timer-e8728",
+    "storage_bucket": "timer-e8728.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984259712112:android:afae30b3f35804542250b5",
+        "android_client_info": {
+          "package_name": "org.javaapp.timer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnpPP3AevP-3ho7Qhv11McVNb4INj0ybg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

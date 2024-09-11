@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_rank"
+        android:title="순위"
+        android:icon="@drawable/baseline_hotel_class_24"
+        />
+
+    <item
+        android:id="@+id/fragment_start"
+        android:title="게임"
+        android:icon="@drawable/baseline_access_time_24"
+        />
+
+</menu>

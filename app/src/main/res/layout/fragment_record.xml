@@ -5,40 +5,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="기록"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_marginTop="42dp"
+        />
 
     <TextView
+        android:id="@+id/record_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="64sp"
-        tools:text="00 0000"
-        android:layout_marginTop="96dp"
+        android:text="00.000"
+
         android:layout_marginBottom="32dp"
         />
 
     <TextView
         android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:text="Rank"
+        android:text="순위"
         android:gravity="center"
         android:textSize="32sp"
         android:layout_marginTop="32dp"
         />
 
     <TextView
+        android:id="@+id/rank_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="1"
+        android:text="1"
+        android:textStyle="bold|italic"
         android:gravity="center"
         android:textSize="168dp"
         android:layout_marginBottom="16dp"
         />
 
     <Button
+        android:id="@+id/back_to_start_button"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:text="돌아가기"
         android:textSize="32sp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         />
 
 </LinearLayout>
