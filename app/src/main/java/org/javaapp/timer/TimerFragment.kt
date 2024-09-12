@@ -5,6 +5,7 @@ import android.text.TextUtils.replace
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.database
@@ -47,8 +48,10 @@ class TimerFragment(private val currentPlayerId : String) : Fragment() {
 
         binding.startAndStopButton.setOnClickListener {
             if (state == FIRST) {
+                binding.timeText.visibility = View.INVISIBLE
                 startTimer()
             } else if (state == RUNNNING) {
+                binding.timeText.visibility = View.VISIBLE
                 stopTimer()
             } else { // state == STOPPED
                 comfirmRecord()
